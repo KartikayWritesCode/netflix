@@ -1,129 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+*{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
-body {
+body{
     background-color: black;
 }
 
-.main {
-    background-image: url("assets/images/background-2.jpg");
+.main{
+    background-image: url("assets/Images/background-2.jpg");
     background-position: center center;
-    background-size: max(1200px, 100vw);
+    background-size:max(1200px,100vw);
     background-repeat: no-repeat;
-    height: 644px;
-    position: relative;
+    height:70vh;
+    position:relative;
 }
-
-.main .box {
-    height: 644px;
-    width: 100%;
-    opacity: 0.69;
-    position: absolute;
-    top: 0;
+.main .box{
+    height:70vh;
+    width:100%;
+    opacity:0.69;
+    position:absolute;
+    top:0;
     background-color: black;
 }
-
-nav {
+nav{
     max-width: 60vw;
-    justify-content: space-between;
-    margin: auto;
-    display: flex;
+    justify-content:space-between;
+    margin:auto;
+    display:flex;
     align-items: center;
-    height: 100px;
+    height:62px;
 }
-
-nav img {
-    color: red;
-    width: 130px;
+nav img{
+    width:130px;
+    position:relative;
+    z-index:10;
+}
+nav button{
     position: relative;
     z-index: 10;
 }
-
-nav button {
-    position: relative;
-    z-index: 10;
-}
-
-.hero {
-    font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 100px);
-    display: flex;
+.hero{
+    font-family: 'Roboto', sans-serif;
+    height:calc(100% - 62px);
+    display:flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    gap: 23px;
-    padding: 0 30px;
+    flex-direction:column;
+    color:white;
+    position:relative;
+    gap:30px;
+    padding:0 30px;
 }
-
-.hero> :nth-child(1) {
+.hero> :nth-child(1){
     font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 48px;
+    font-weight:bolder;
+    font-size:48px;
     text-align: center;
 }
-
-.hero> :nth-child(2) {
-    font-weight: 400;
-    font-size: 24px;
+.hero> :nth-child(2){
+    font-size:24px;
     text-align: center;
 }
-
-.hero> :nth-child(3) {
-    font-weight: 400;
+.hero> :nth-child(3){
     font-size: 20px;
     text-align: center;
 }
-
-.separation {
-    height: 7px;
+.seperation{
+    height:7px;
     background-color: rgb(46, 44, 44);
     position: relative;
     z-index: 20;
 }
+.language select{
+    padding: 7px 35px;
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+    color:white;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 2px solid white;
+}
 
-.btn {
-    padding: 3px 8px;
-    font-weight: 400;
-    color: white;
-    background-color: rgba(248, 243, 243, 0.021);
+.btn-red{
+    background-color:red;
+    color:white;
+    padding: 15px 35px;
+    font-size: 30px;
     border-radius: 4px;
-    border: 1px solid white;
-    cursor: pointer;
-
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
 }
 
-.btn-red {
-    background-color: red;
+.btn-red-sm{
+    background-color:red;
     color: white;
-    padding: 3px 24px;
-    font-size: 20px;
+    padding: 10px 15px;
+    font-size:18px;
     border-radius: 4px;
-    font-weight: 400;
+    border: none;
+    font-weight: bold;
+    cursor:pointer;
 }
-
-.btn-red-sm {
-    background-color: red;
-    color: white;
-}
-
-.hero-buttons {
-    display: flex;
+.hero-buttons{
+    display:flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap:20px
 }
-
-.main input {
-    padding: 7px 101px 8px 14px;
-    color: white;
-    font-size: 12px;
+.main input{
+    padding: 22px 238px 22px 16px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
