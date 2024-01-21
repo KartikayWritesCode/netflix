@@ -85,7 +85,7 @@ nav button{
     color:white;
     background-color:red;
     color:white;
-    padding: 18px 40px;
+    padding: 14px 38px;
     font-size: 25px;
     border-radius: 4px;
 }
@@ -103,7 +103,7 @@ nav button{
     gap:20px
 }
 .main input{
-    padding:16px 115px 16px 19px;
+    padding: 22px 238px 22px 16px;
     text-align: left;
     font-size: 16px;
     font-weight: 300;
